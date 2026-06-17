@@ -138,34 +138,6 @@ OLX-Rental-Fraud-Detection/
 
 ---
 
-## Installation & Usage
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/olx-rental-fraud-detection.git
-   cd olx-rental-fraud-detection
-   ```
-
-2. **Create a virtual environment (recommended)**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Streamlit app**
-   ```bash
-   streamlit run app.py
-   ```
-
-5. Open the local URL shown in your terminal, enter property details (price, area, bedrooms, bathrooms), and click **Predict** to get a real-time fraud classification with a confidence score.
-
----
-
 ## App Preview
 
 The deployed app takes property details as input (price, area, bedrooms, bathrooms) and returns an instant prediction with a confidence score — e.g., a sample listing was flagged as fraudulent with **86.75% confidence**.

@@ -11,13 +11,13 @@ Machine Learning-based classification system that detects fraudulent rental list
 
 ## Overview
 
-Online rental platforms like OLX Pakistan are increasingly targeted by fraudulent listings that mislead users and cause financial and time losses. Manual detection is unreliable and doesn't scale. This project builds a supervised machine learning pipeline that classifies rental listings as **fraudulent** or **legitimate** using structured numerical features extracted from listing data — price, area, bedroom count, and bathroom count — and deploys the final model as an interactive web app.
+Online rental platforms like OLX Pakistan are increasingly targeted by fraudulent listings that mislead users and cause financial and time losses. Manual detection is unreliable and doesn't scale. This project builds a supervised machine learning pipeline that classifies rental listings as **fraudulent** or **legitimate** using structured numerical features extracted from listing data — price, area, bedroom count and bathroom count — and deploys the final model as an interactive web app.
 
 ---
 
 ## Problem Statement
 
-Most existing fraud-detection approaches for online marketplaces rely on text or image analysis. In structured listing data, however, signals like price-per-sqft ratios, bedroom-to-bathroom ratios, and abnormally low prices relative to area can be strong indicators of fraud. This project trains a supervised classifier on labeled, real OLX listings to flag suspicious listings automatically at the point of submission.
+Most existing fraud-detection approaches for online marketplaces rely on text or image analysis. In structured listing data, however, signals like price-per-sqft ratios, bedroom-to-bathroom ratios and abnormally low prices relative to area can be strong indicators of fraud. This project trains a supervised classifier on labeled, real OLX listings to flag suspicious listings automatically at the point of submission.
 
 ---
 
